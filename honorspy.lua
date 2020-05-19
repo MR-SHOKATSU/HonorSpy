@@ -339,7 +339,6 @@ function HonorSpy:Report(playerOfInterest, skipUpdate)
 		text = text .. format("%s <%s>: ", L['Progress of'], playerOfInterest)
 	end
 	text = text .. format("%s = %d, %s = %d, %s = %d, %s = %d (%d%%), %s = %d (%d%%)", L["Standing"], standing, L["Bracket"], bracket, L["Next Week RP"], EstRP, L["Rank"], Rank, Progress, L["Next Week Rank"], EstRank, EstProgress)
-	-- SendChatMessage(text, "emote")
 	print(text)
 end
 
